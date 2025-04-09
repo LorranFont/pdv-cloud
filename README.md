@@ -1,44 +1,52 @@
-# 🧾 PDV Cloud
+# PDV Cloud
 
-Um sistema simples de **Ponto de Venda (PDV)** feito com **Node.js + Express**, ideal para controle de produtos de pequenos comércios.
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-## 🚀 Funcionalidades
+---
 
-- 📦 Listar produtos
-- ➕ Adicionar novos produtos
-- ✏️ Atualizar produtos
-- ❌ Remover produtos
+## 💻 Sobre o Projeto
 
-## 🛠️ Tecnologias usadas
+Este é um sistema simples de PDV (Ponto de Venda) desenvolvido com **Node.js** e **Express**. Ele permite o gerenciamento de produtos com as operações básicas de um CRUD:
 
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
+- Listar produtos (`GET /produtos`)
+- Adicionar produto (`POST /produtos`)
+- Atualizar produto (`PUT /produtos/:id`)
+- Deletar produto (`DELETE /produtos/:id`)
 
-## 📦 Como rodar o projeto
+---
 
-1. Clone o repositório:
+## 🚀 Como rodar o projeto
 
 ```bash
+# Clone o repositório
 git clone https://github.com/LorranFont/pdv-cloud.git
+
+# Entre na pasta do projeto
 cd pdv-cloud
 
-Instale as dependências: npm install
+# Instale as dependências
+npm install
 
+# Inicie o servidor
+node index.js
 
-Inicie o servidor: node index.js
-
-Acesse o sistema em: http://localhost:3000
-
-📬 Rotas da API
+📫 Rotas da API
 Método	Rota	Descrição
 GET	/produtos	Lista todos os produtos
-POST	/produtos	Cria um novo produto
+POST	/produtos	Adiciona um novo produto
 PUT	/produtos/:id	Atualiza um produto
 DELETE	/produtos/:id	Remove um produto
-🧪 Teste com Postman
-Use o Postman ou qualquer cliente HTTP para testar as rotas da API.
+🧠 Tecnologias usadas
+Node.js
 
-🧑‍💻 Autor
-Feito com 💻 por Lorran Font
-GitHub
+Express
 
+JavaScript
+
+📝 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+Feito com 💙 por Lorran Fontes
