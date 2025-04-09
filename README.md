@@ -41,17 +41,26 @@ npm install
 # Inicie o servidor
 node index.js
 
-📫 Rotas da API
-Método	Rota	Descrição
-GET	/produtos	Lista todos os produtos
-POST	/produtos	Adiciona um novo produto
-PUT	/produtos/:id	Atualiza um produto
+📫 Rotas da API:  
+
+Método	Rota	Descrição  
+
+GET	/produtos	Lista todos os produtos  
+
+POST	/produtos	Adiciona um novo produto  
+
+PUT	/produtos/:id	Atualiza um produto  
+
 DELETE	/produtos/:id	Remove um produto
 
-📝 Licença
-Este projeto está licenciado sob a MIT License.
+📝 Licença:  
+
+Este projeto está licenciado sob a MIT License.  
+
 Consulte o arquivo LICENSE para mais detalhes.
 
-👨‍💻 Autor
-Feito com ❤️ por Lorran Fontenele Vieira
+👨‍💻 Autor:  
+
+Feito com ❤️ por Lorran Fontenele Vieira  
+
 GitHub: @LorranFont
